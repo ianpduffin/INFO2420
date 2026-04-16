@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+        background-color: #89DCE7;
+        color: #081B10;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 100%; 
+        line-height: 1.6;
+        margin: 0 10%;
+    }
+
+header {
+	width: 900px;
+	height: 200px;
+	background-color: #E4FEEF;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+}
+
+section {
+	width: 900px;
+	background-image: url('Images/2colback.jpg');
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+}
+
+nav {
+	float: left;
+	width: 250px;
+}
+
+article {
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	width: 900px;
+	height: 70px;
+	background-color: #E4FEEF;
+	margin: auto;
+}
+
+.logoleft {
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+.auto-style1 {
+	float: left;
+	height: 150px;
+	padding: 0px 15px 10px 80px;
+	margin-left: 29px;
+}
+
+nav a {
+	border: 6px inset #081B10;
+	background-color: #E4FEEF;
+	line-height: 250%;
+	font-weight: bold;
+	font-size: 30px;
+	color: #081B10;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 20px;
+	font-family: Georgia;
+}
+
+nav a:hover {
+	color: #1C0A00;
+	border: 2px outset #1C0A00;
+}
+
+ h1, h2, h3 {
+        font-family: "Trebuchet MS", Arial, sans-serif;
+        color: #296041; 
+    }
+	
+    h1 {
+        font-size: 2em;
+        border-bottom: 2px solid #89DCE7;
+        padding-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+
+	#thumbs, #image {
+		width: 700px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+	}
+
+	#thumbs {
+		margin-top: 10px;
+	}
+
+			
+	#thumbs img {
+		border: solid 1px #000;
+		margin: 5px;
+	}
+
+	#image{
+		height:500px;
+	}
+
+	.instructions{
+		font-style:italic;
+	}
+
